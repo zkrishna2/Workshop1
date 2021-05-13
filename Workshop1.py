@@ -32,12 +32,3 @@ while curr_line not in lines_read:
 	curr_line=parse_goto(goto[curr_line])
 print(goto[curr_line], curr_line)	
 
-# 	result+=calc_line(line)
-#print(calc_line(goto[18]))
-# for line in lines:
-# 	split_line=line.split()
-# 	operator = split_line[1]
-# 	A = int(split_line[2])
-# 	B = int(split_line[3])
-# 	result+=calculator(operator,A,B)
-# print(result)
